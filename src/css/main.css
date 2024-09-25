@@ -12,3 +12,65 @@ img,
 video {
   display: block;
 }
+
+body {
+  width: 1728px;
+  background: #fff;
+  color: #fff;
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.Flexbox {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.block {
+  border: 1px solid #d62828;
+  background: #f77f00;
+  padding: 30px;
+}
+
+.Wrapper {
+  background: #eae2b7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.Flexbox-1 {
+  display: flex;
+}
+
+.Flexbox-1 .block {
+  width: 50%;
+}
+
+.Flexbox-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+.Flexbox-3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Flexbox-4 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.Flexbox-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Flexbox-5 .block {
+  width: 50%;
+}
